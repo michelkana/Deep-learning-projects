@@ -2,7 +2,7 @@ Deep Learning deals with learning data representations,  searching  for  useful 
 The following machine learning models illustrate various concepts as I understand them. 
 
 
-* **Project 1: Smoothers and Generalized Additive Models* - predict the price of an Airbnb rental*
+* **Project 1: Smoothers and Generalized Additive Models - predict the price of an Airbnb rental**
 
 In the first part of this project, we explore 2 years Airbnb rental prices and fit several regression models for predicting the price given the booking time: polynomials, cubic B-splines, natural cubic splines. We tune hyper-parameters by cross-validation and compare models using R square.
 
@@ -37,5 +37,13 @@ We explore frequency-based baseline model, vanilla feedforward neural network, r
 
 We compare the models using F1 score. We also look at how the model if performing on each tag class. We develop methods for visualizing tags wrongly classified and we use data augmentation for improving the classification of those tags.
 
+* **Project 5: Clustering and Reinforcement Learning - Hand posture recognition & Frozen Lake agent training**
+
+In the first part of this project, we perform K-means clustering on records from a camera system performed on 14 different users performing 5 distinct hand postures. We work with R commands within python enviroment using rpy2, R stats module, factoextra library, fviz_cluster function. We evaluate the clusters using Gini coefficient, Entropy. We find the optimal number of cluster using elbow, Gap statistics,  silhouette and agglomerative clustering techniques.
+
+In the second part, we work with OpenAIgym's FrozenLake environment. We train an agent to control the movement of a character in a grid world using value and policy iteration methods.
+
+<hr>
 
 *Disclaimer: the design and data of these projects are from the Advanced Topics in Data Science class at Harvard University - instructors: Pavlos Protopapas (SEAS), Mark Glickman (Statistics)*
+
