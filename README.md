@@ -41,7 +41,17 @@ We compare the models using F1 score. We also look at how the model if performin
 
 In the first part of this project, we perform K-means clustering on records from a camera system performed on 14 different users performing 5 distinct hand postures. We work with R commands within python enviroment using rpy2, R stats module, factoextra library, fviz_cluster function. We evaluate the clusters using Gini coefficient, Entropy. We find the optimal number of cluster using elbow, Gap statistics,  silhouette and agglomerative clustering techniques.
 
-In the second part, we work with OpenAIgym's FrozenLake environment. We train an agent to control the movement of a character in a grid world using value and policy iteration methods.
+In the second part, we work with OpenAI gym's FrozenLake environment. We train an agent to control the movement of a character in a grid world using value and policy iteration methods.
+
+* **Project 6: Topic modeling & Bayesian analysis -  President Donald Trump's tweets analysis & Prediction of contraceptive usage by Bangladeshi Women**
+
+In the first part of the project we process ca. 7000 tweets by President Donald Trump since his inauguration. We remove stop words, tokenize the tweets, calculate frequencies. We than build a Latent Dirichlet Allocation model for topics modeling and visualization.
+
+In the second part, we predict women contraceptives usage based on region of residence, number of children and age. We build several Bayesian Logistic Regression, where the intercept and coefficients vary by district and prior distributions of normal and gamma is assumed. A  Markov chain Monte Carlo (MCMC) sampler is used to simulate data.
+
+* **Project 7: Variational Autoencoder & Generative Adverserial Networks - Generating fake celebrity faces and fake anime faces**
+
+Using a subset of the Celebrity dataset (202,599 number of face images) we train VAE and DCGAN models for facial generation. 
 
 <hr>
 
